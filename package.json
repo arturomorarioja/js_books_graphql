@@ -1,0 +1,12 @@
+{
+    "name": "js_books_graphql",
+    "version": "1.0.0",
+    "main": "books_server.js",
+    "scripts": {
+        "start": "node books_server.js"
+    },
+    "dependencies": {
+        "@apollo/server": "^5.0.0",
+        "graphql": "^16.11.0"
+    }
+}
