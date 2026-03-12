@@ -1,5 +1,5 @@
 # Books
-GraphQL server and GUI client example with Apollo Server.
+GraphQL API example with Apollo Server.
 
 ## Usage
 1. Install the dependencies: `npm i`
