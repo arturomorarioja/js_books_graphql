@@ -1,0 +1,8 @@
+services:
+    books-graphql:
+        build: .
+        container_name: books-graphql
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./books_data.json:/app/books_data.json

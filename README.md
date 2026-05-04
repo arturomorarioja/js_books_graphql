@@ -2,12 +2,12 @@
 GraphQL API example with Apollo Server.
 
 ## Usage
-1. Install the dependencies: `npm i`
-2. Run the server: `npm start`
-3. Interact with the server at `http://localhost:4000`
+- Start the Docker container: `docker compose up -d --build`. The server will be ready at `http://localhost:5000`
+- Stop the Docker container: `docker compose down`
 
 ## Tools
 Apollo Server / JavaScript
 
 ## Author
 ChatGPT 5.1, based on https://github.com/arturomorarioja/py_books_graphql (based on a Kesha Williams repo), prompted by Arturo Mora-Rioja.
+Dockerisation by ChatGPT 5.2, prompted by Arturo Mora-Rioja.

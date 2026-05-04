@@ -78,7 +78,10 @@ async function start() {
     });
 
     const { url } = await startStandaloneServer(server, {
-        listen: { port: 4000 }
+        listen: { 
+            host: '0.0.0.0',
+            port: 5000 
+        }
     });
 
     console.log('GraphQL Books API running at', url);
